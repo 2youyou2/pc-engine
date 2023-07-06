@@ -1,0 +1,20 @@
+{
+    "name": "cocos-sync-playcanvas",
+    "version": "0.1",
+    "description": "cocos-sync-playcanvas",
+    "permissions": [
+      "tabs",
+      "activeTab"
+    ],
+    "browser_action": {
+      "default_title": "cocos-sync-playcanvas",
+      "default_popup": "popup.html"
+    },
+    "manifest_version": 2,
+    "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'",
+    "web_accessible_resources": [
+      "playcanvas-extras.js",
+      "save-file.js",
+      "my.js"
+    ]
+  }
